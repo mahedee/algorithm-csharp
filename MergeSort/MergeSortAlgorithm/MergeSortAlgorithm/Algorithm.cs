@@ -6,47 +6,10 @@ namespace MergeSortAlgorithm
 {
     public class Algorithm
     {
-
-        /*
-         *
-        private static void Merge(int[] array, int start, int mid, int end)
-        {
-            //stores the starting position of both parts in temporary variables.
-            int p = start, q = mid + 1;
-
-            int[] arr = new int[end - start + 1];
-            int k = 0;
-
-            for (int i = start; i <= end; i++)
-            {
-                if (p > mid)      //checks if first part comes to an end or not .
-                    arr[k++] = array[q++];
-
-                else if (q > end)   //checks if second part comes to an end or not
-                    arr[k++] = array[p++];
-
-                else if (array[p] < array[q])     //checks which part has smaller element.
-                    arr[k++] = array[p++];
-
-                else
-                    arr[k++] = array[q++];
-            }
-
-            for (p = 0; p < k; p++)
-            {
-                // Now the real array has elements in sorted manner including both parts.
-                array[start++] = arr[p];
-            }
-        }
-        
-             */
-
-
-
         // Merges two subarrays of arr[]. 
         // First subarray is arr[l..m] 
         // Second subarray is arr[m+1..r] 
-        //Here l is left, m is middle, r is right
+        // Here l is left, m is middle, r is right
         private static void Merge(int[] arr, int l, int m, int r)
         {
             // Find sizes of two subarrays to be merged 
