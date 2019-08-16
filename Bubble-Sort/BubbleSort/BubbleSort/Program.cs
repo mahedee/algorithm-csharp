@@ -1,5 +1,6 @@
 ﻿// C# program for implementation  
 // of Bubble Sort 
+// Time complexity : O(n^2)
 
 using System;
 
@@ -38,7 +39,7 @@ namespace BubbleSort
         // Prints the array
         public static void Print(int[] arra)
         {
-            for (int i = 0; i < arra.Length - 1; i++)
+            for (int i = 0; i < arra.Length; i++)
                 Console.Write(arra[i] + "  ");
         }
 
