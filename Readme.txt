@@ -5,13 +5,8 @@
 5. BST
 6. BFS
 7. DFS
-8.  Bubble sort
-
-8. Heap Sort
-9. Quick Sort
-10.
-11. Selection Sort
-12. Insertion sort
-13. 
-//Comment as Big O
-//
+8. Bubble sort
+9. Heap Sort
+10. Insertion sort
+11. Quick Sort
+12. Selection Sort

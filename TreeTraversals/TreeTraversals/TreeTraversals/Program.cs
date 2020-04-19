@@ -93,13 +93,13 @@ namespace TreeTraversals
 
             TreeTraversal treeTraversal = new TreeTraversal();
 
-            Console.WriteLine("Preorder traversal of binary tree is ");
+            Console.WriteLine("Postorder traversal of binary tree is ");
             treeTraversal.PrintPostOrder(root);
 
             Console.WriteLine("\nInorder traversal of binary tree is ");
             treeTraversal.PrintInOrder(root);
 
-            Console.WriteLine("\nPostorder traversal of binary tree is ");
+            Console.WriteLine("\nPreorder traversal of binary tree is ");
             treeTraversal.PrintPreorder(root);
 
 
