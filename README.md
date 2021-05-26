@@ -9,3 +9,7 @@
 8. Merge sort
 9. Tree Traversal
 10. Heap Sort
+
+Moved to repo: https://github.com/mahedee/datastructures-algorithms
+
+* Should remove this repo
